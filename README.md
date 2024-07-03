@@ -22,6 +22,8 @@ enclose the entire query in double quotes (not just the stuff after the colon)
 
 `"deck:deckname with spaces"`
 
+`"deck:parent_deck::subdeck with spaces"`
+
 
 ### how to delete notes
 
@@ -31,6 +33,7 @@ the `collection::remove_notes()` function takes a list of note ids to be deleted
 notes = col.find_notes("")
 col.remove_notes(notes)
 ```
+
 
 
 
